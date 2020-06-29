@@ -1,4 +1,4 @@
-# Development_of_feature_based_smart_virtual_sensors
+# Development of feature based smart virtual sensors
 
 This is the implementation of the thesis for the Computer Science Master from the Technical University of Denmark (DTU).
 
@@ -11,7 +11,7 @@ This is the implementation of the thesis for the Computer Science Master from th
 ## Introduction
 
 This thesis proposes an application of convolutional feature points as smart virtual sensors. The feature descriptors are formed using the feature maps of one of the layers of a VGG-16 network pre-trained on Imagenet.From the extracted and matched features, information is obtained from each of them to create a data-set that describes the sequence of frames under consideration. Different sets of information are extracted from the feature correspondences such as their coordinates with respect the image or their local displacement between frames. Moreover, to compare the robustness of the implemented convolutional features, the same information is obtained using the SIFT descriptor and a brute-force matching technique.
-The collected information from the matched feature points is used to train a set of machine learning models that predict physical properties of the environment or body under consideration. The two used applications are: volume prediction on a self-developed sphere simulation and displacement prediction on the [KITTI](http://www.cvlibs.net/datasets/kitti/)benchmark suite.
+The collected information from the matched feature points is used to train a set of machine learning models that predict physical properties of the environment or body under consideration. The two used applications are: volume prediction on a self-developed sphere simulation and displacement prediction on the [KITTI](http://www.cvlibs.net/datasets/kitti/) benchmark suite.
 
 ## General info
 
